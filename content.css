@@ -1,0 +1,64 @@
+/* =========================================
+   1. HIDE THUMBNAILS (Default: ON)
+   ========================================= */
+
+:root:not(.thumbless-show-thumbs) ytd-thumbnail img,
+:root:not(.thumbless-show-thumbs) yt-image img,
+:root:not(.thumbless-show-thumbs) img.ytCoreImageHost,
+:root:not(.thumbless-show-thumbs) img.yt-core-image,
+:root:not(.thumbless-show-thumbs) .ytp-thumbnail-overlay-image {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  display: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+:root:not(.thumbless-show-thumbs) ytd-thumbnail a#thumbnail,
+:root:not(.thumbless-show-thumbs)
+  ytd-thumbnail[use-hovered-property]
+  a#thumbnail,
+:root:not(.thumbless-show-thumbs) ytd-thumbnail,
+:root:not(.thumbless-show-thumbs) yt-image,
+:root:not(.thumbless-show-thumbs) ytd-playlist-thumbnail,
+:root:not(.thumbless-show-thumbs)
+  .shortsLockupViewModelHostThumbnailParentContainerRounded {
+  background: #222222 !important;
+}
+
+/* =========================================
+   2. REMOVE SHORTS (Default: ON)
+   ========================================= */
+
+:root:not(.thumbless-show-shorts) ytd-rich-shelf-renderer[is-shorts],
+:root:not(.thumbless-show-shorts) ytd-reel-shelf-renderer,
+:root:not(.thumbless-show-shorts) ytd-reel-item-renderer,
+:root:not(.thumbless-show-shorts) ytm-shorts-lockup-view-model,
+:root:not(.thumbless-show-shorts) ytm-shorts-lockup-view-model-v2 {
+  display: none !important;
+}
+
+:root:not(.thumbless-show-shorts)
+  grid-shelf-view-model:has(ytm-shorts-lockup-view-model),
+:root:not(.thumbless-show-shorts)
+  grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2) {
+  display: none !important;
+}
+
+:root:not(.thumbless-show-shorts) ytd-video-renderer a[href^="/shorts"] {
+  display: none !important;
+}
+
+:root:not(.thumbless-show-shorts)
+  ytd-guide-entry-renderer:has(a[href^="/shorts"]),
+:root:not(.thumbless-show-shorts)
+  ytd-mini-guide-entry-renderer:has(a[href^="/shorts"]) {
+  display: none !important;
+}
+
+:root:not(.thumbless-show-shorts)
+  yt-chip-cloud-chip-renderer:has(yt-formatted-string[title="Shorts"]),
+:root:not(.thumbless-show-shorts)
+  yt-chip-cloud-chip-renderer:has(yt-formatted-string[title="shorts"]) {
+  display: none !important;
+}
