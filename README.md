@@ -10,7 +10,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
   [![Manifest V3](https://img.shields.io/badge/Manifest-V3-success.svg?style=flat-square)](https://developer.chrome.com/docs/extensions/mv3/intro/)
   [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Available-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](YOUR_CHROME_WEB_STORE_LINK_HERE)
-  [![Firefox Add-ons](https://img.shields.io/badge/Firefox_Add--ons-Available-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white)](YOUR_FIREFOX_ADDONS_LINK_HERE)
+  [![Firefox Add-ons](https://img.shields.io/badge/Firefox_Add--ons-Available-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/en-US/firefox/addon/thumbless)
   [![Brave Compatible](https://img.shields.io/badge/Brave-Supported-FB542B?style=flat-square&logo=brave&logoColor=white)](#)
   [![Zen Compatible](https://img.shields.io/badge/Zen_Browser-Supported-black?style=flat-square)](#)
 
@@ -26,8 +26,8 @@
 
 ## Install
 
-* [**Chrome Web Store** (Chrome, Brave)](YOUR_CHROME_WEB_STORE_LINK_HERE)
-* [**Firefox Add-ons** (Firefox, Zen)](YOUR_FIREFOX_ADDONS_LINK_HERE)
+* [**Chrome Web Store** (Chrome, Brave)](YOUR_CHROME_WEB_STORE_LINK_HERE) `NOT yet available`
+* [**Firefox Add-ons** (Firefox, Zen)](https://addons.mozilla.org/en-US/firefox/addon/thumbless/)
 
 ---
 
